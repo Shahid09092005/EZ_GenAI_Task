@@ -10,13 +10,7 @@ Perfect for researchers, students, educators, and developers who want a fast and
 # 📸 Demo
 ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png)
 
-# AI-Assisted PDF Reader
 
-An AI-powered tool designed to read, process, and extract text from PDF documents. It uses Natural Language Processing (NLP) to analyze the content of PDFs and provide useful insights or summaries.
-
-# EZ-project
-It's an AI assitnce system 
-Sure! Here's a sample **README.md** file for an **AI-assisted PDF reader** project. This README explains how to use an AI tool to read and extract information from PDFs.
 
 ## Table of Contents
 
