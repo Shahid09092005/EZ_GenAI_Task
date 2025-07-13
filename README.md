@@ -21,13 +21,15 @@ An AI-powered tool designed to read, process, and extract text from PDF document
 * [How It Works](#how-it-works)
 * [License](#license)
 
-## Architecture
-   -🧾 User uploads a PDF
-   -📄 Summary generated using Sumy + TextRank
-   -💬 "Ask Me" uses LangChain + vector store retrieval
-   -🧠 "Challenge Me" mode generates 3 open-ended questions
-   -✅ User answers are evaluated using sentence similarity
-   -🧮 Score and feedback displayed
+## 🏗️ Architecture
+
+- 🧾 **User uploads a PDF**
+- 📄 **Summary generated** using `Sumy` + `TextRank`
+- 💬 **"Ask Me"** uses `LangChain` + vector store retrieval (`FAISS`)
+- 🧠 **"Challenge Me"** generates 3 open-ended questions with sentence context
+- ✅ **User answers are evaluated** using sentence similarity (`SentenceTransformers`)
+- 🧮 **Score and feedback** are displayed with deduction logic
+
 
 ## 🛠 Installation
 ### Steps:
@@ -76,8 +78,22 @@ An AI-powered tool designed to read, process, and extract text from PDF document
 - Challange me Ss
      ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/challangeMe.png)
 
-##🚧 Future Improvements
--🧾 Export score report as PDF
--❓ Optional MCQ challenge mode
--🌙 Add dark mode UI
--🎙️ Speech-to-text input support
+...
+
+## 🧠 Challenge Me
+...
+
+## 🚧 Future Improvements
+
+- 🧾 **Export score report as PDF**  
+- ❓ **Optional MCQ challenge mode**  
+- 🌙 **Add dark mode UI**  
+- 🎙️ **Speech-to-text input support**
+
+## 👨‍💻 Author
+Shahid Mansuri  
+[🐙 GitHub](https://github.com/Shahid09092005) | [💼 LinkedIn](https://www.linkedin.com/in/shahid-mansuri-a3b901285)
+
+## 🪪 License
+MIT License
+
