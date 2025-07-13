@@ -1,4 +1,11 @@
-# 📄 Smart Research Assistant (Offline PDF Q&A with Summary & Challenge Mode)
+# 📄 Smart Research Assistant
+A fully offline, AI-powered assistant that helps you **understand, question, and test your comprehension** of any research document in PDF format.
+
+This app automatically summarizes uploaded PDFs into a clean paragraph, allows you to ask context-aware questions, and challenges you with logic-based open-ended questions — **all without needing internet access for processing**.
+
+Perfect for researchers, students, educators, and developers who want a fast and local GenAI tool to explore documents intelligently.
+
+---
 
 # 📸 Demo
 ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png)
