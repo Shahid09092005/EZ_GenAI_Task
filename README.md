@@ -30,7 +30,12 @@ An **offline GenAI-powered assistant** that understands uploaded PDF documents a
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/Shahid09092005/EZ_GenAI_Task.git
 cd EZ_GenAI_Task
+```  <-- this line ends the gray code block
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```  <-- this line ends the gray code block
