@@ -4,9 +4,9 @@
 It's an AI assitnce system 
 Sure! Here's a sample **README.md** file for an **AI-assisted PDF reader** project. This README explains how to use an AI tool to read and extract information from PDFs.
 
-## 📸 Demo
+# 📸 Demo
 ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png)
----
+
 
 
 # AI-Assisted PDF Reader
@@ -22,12 +22,12 @@ An AI-powered tool designed to read, process, and extract text from PDF document
 * [License](#license)
 
 ## Architecture
--🧾 User uploads a PDF
--📄 Summary generated using Sumy + TextRank
--💬 "Ask Me" uses LangChain + vector store retrieval
--🧠 "Challenge Me" mode generates 3 open-ended questions
--✅ User answers are evaluated using sentence similarity
--🧮 Score and feedback displayed
+   -🧾 User uploads a PDF
+   -📄 Summary generated using Sumy + TextRank
+   -💬 "Ask Me" uses LangChain + vector store retrieval
+   -🧠 "Challenge Me" mode generates 3 open-ended questions
+   -✅ User answers are evaluated using sentence similarity
+   -🧮 Score and feedback displayed
 
 ## 🛠 Installation
 ### Steps:
