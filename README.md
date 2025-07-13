@@ -1,5 +1,4 @@
 # 📄 Smart Research Assistant (Offline PDF Q&A with Summary & Challenge Mode)
----
 
 # 📸 Demo
 ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png)
@@ -67,15 +66,20 @@ Sure! Here's a sample **README.md** file for an **AI-assisted PDF reader** proje
 
 ---
 
-##🖼️ App Flow — Screenshots(Ss)
-- Demo Ss(Default View)
-     ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png)
-- Summary Ss
-     ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/summary.png)
-- Ask Me
-     ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/askMe.png)
-- Challange me Ss
-     ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/challangeMe.png)
+
+---
+
+## 🖥️ Demo Screenshots
+
+| Upload PDF | Auto Summary |
+|------------|---------------|
+| ![Upload](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png) | ![Summary](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/summary.png) |
+
+| Ask Me | Challenge Me |
+|--------|---------------|
+| ![Ask Me](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/askMe.png) | ![Challenge](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/challangeMe.png) |
+
+---
 
 
 ## 🚧 Future Improvements
@@ -92,17 +96,3 @@ Shahid Mansuri
 ## 🪪 License
 MIT License
 
-
----
-
-## 🖥️ Demo Screenshots
-
-| Upload PDF | Auto Summary |
-|------------|---------------|
-| ![Upload](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png) | ![Summary](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/summary.png) |
-
-| Ask Me | Challenge Me |
-|--------|---------------|
-| ![Ask Me](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/askMe.png) | ![Challenge](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/challangeMe.png) |
-
----
