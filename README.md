@@ -13,7 +13,8 @@ Built using `Streamlit`, `LangChain`, `Sentence Transformers`, `Flan-T5`, `Sumy`
 
 ## 📸 Demo
 
-D:\trynew\images\image.png
+![image](https://user-images.githubusercontent.com/yourimage.png)
+
 
 ---
 
