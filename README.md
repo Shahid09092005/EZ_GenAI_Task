@@ -1,170 +1,83 @@
 # 📄 Smart Research Assistant (Offline PDF Q&A with Summary & Challenge Mode)
-
-An **offline GenAI-powered assistant** that understands uploaded PDF documents and:
-
-- ✍️ **Automatically summarizes** the document (120–150 words)
-- 💬 **Answers questions** from the document ("Ask Me" mode)
-- 🧠 **Challenges users** with logic-based open-ended questions ("Challenge Me" mode)
-- 🧮 **Evaluates answers** with scoring and deduction logic
-
-> Built using `Streamlit`, `LangChain`, `Sentence Transformers`, `Flan-T5`, `Sumy`, and `FAISS`.
-
----
-
-## 📸 Demo
-
-![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png)
-
----
-
-## ⚙️ Features
-
-✅ Auto Summary (120–150 words paragraph)  
-✅ Ask Me — Free-form question answering from the document  
-✅ Challenge Me — 3 logic-based open-ended questions with scoring  
-✅ Evaluation — Marks awarded/deducted fairly  
-✅ Fast & Offline — All models run locally
-
 ---
 # EZ-project
 It's an AI assitnce system 
 Sure! Here's a sample **README.md** file for an **AI-assisted PDF reader** project. This README explains how to use an AI tool to read and extract information from PDFs.
 
+## 📸 Demo
+![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png)
 ---
+
 
 # AI-Assisted PDF Reader
 
 An AI-powered tool designed to read, process, and extract text from PDF documents. It uses Natural Language Processing (NLP) to analyze the content of PDFs and provide useful insights or summaries.
 
-## Features
-
-* Extracts text content from PDF files.
-* Provides summarization of long documents.
-* Supports search functionality to find specific content.
-* Allows you to ask questions about the document using AI.
-
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Features](#features)
+* [Architecture](#Architecture)
+* [Installation](#Installation)
+* [Features](#Features)
 * [How It Works](#how-it-works)
-* [Contributing](#contributing)
 * [License](#license)
 
-## Installation
+## Architecture
+-🧾 User uploads a PDF
+-📄 Summary generated using Sumy + TextRank
+-💬 "Ask Me" uses LangChain + vector store retrieval
+-🧠 "Challenge Me" mode generates 3 open-ended questions
+-✅ User answers are evaluated using sentence similarity
+-🧮 Score and feedback displayed
 
-### Prerequisites
-
-Ensure you have the following installed:
-
-* Python 3.x
-* Pip (Python package manager)
-
+## 🛠 Installation
 ### Steps:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ai-assisted-pdf-reader.git
+   git clone https://github.com/Shahid09092005/EZ_GenAI_Task.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd ai-assisted-pdf-reader
+   cd EZ_GenAI_Task
    ```
 
-3. Install the necessary dependencies:
+3. Install Dependencies
 
    ```bash
    pip install -r requirements.txt
    ```
+   
+4. Run the App
 
-## Usage
+   ```bash
+   streamlit run app.py
+   ```
 
-Once installed, you can use the tool to process PDF files through a Python script or command line interface.
-
-### Running the Script
-
-To process a PDF file, simply run the script:
-
-```bash
-python pdf_reader.py path_to_your_pdf.pdf
-```
-
-This will extract the text from the PDF and print it to the console.
-
-### Summarizing a PDF
-
-To summarize a PDF document, use the summarization function:
-
-```bash
-python pdf_reader.py --summarize path_to_your_pdf.pdf
-```
-
-### Asking Questions about the PDF
-
-You can ask questions regarding the content of the PDF file:
-
-```bash
-python pdf_reader.py --ask "What is the main topic of this document?" path_to_your_pdf.pdf
-```
-
-### Searching for Keywords
-
-To search for specific keywords within the PDF, use the `--search` option:
-
-```bash
-python pdf_reader.py --search "artificial intelligence" path_to_your_pdf.pdf
-```
-
-## How It Works
-
-### PDF Text Extraction
-
-* The tool uses the **PyMuPDF** library to extract text from PDF files. This allows for accurate retrieval of text, images, and tables.
-
-### AI Analysis
-
-* After extracting the text, the document is processed with **transformer-based models** (like GPT or BERT) to answer questions, provide summaries, and extract meaningful content.
-
-### NLP Tasks
-
-* **Summarization**: Using AI to generate a concise summary of the PDF's content.
-* **Question Answering**: Users can ask questions based on the content, and the AI will extract the most relevant answers.
-* **Keyword Search**: The tool can scan through the text to find occurrences of keywords.
-
-## Contributing
-
-1. Fork this repository.
-2. Create a new branch: `git checkout -b feature-xyz`
-3. Commit your changes: `git commit -am 'Add new feature xyz'`
-4. Push to the branch: `git push origin feature-xyz`
-5. Create a new Pull Request.
-
-Feel free to report issues or request features through GitHub's issue tracker!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+## ⚙️ Features
+- ✍️ **Automatically summarizes** the document (120–150 words)
+- 💬 **Answers questions** from the document ("Ask Me" mode)
+- 🧠 **Challenges users** with logic-based open-ended questions ("Challenge Me" mode)
+- 🧮 **Evaluates answers** with scoring and deduction logic
+> Built using `Streamlit`, `LangChain`, `Sentence Transformers`, `Flan-T5`, `Sumy`, and `FAISS`.
 
 ---
 
-### `requirements.txt` (Example)
+##🖼️ App Flow — Screenshots(Ss)
+- Demo Ss(Default View)
+     ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png)
+- Summary Ss
+     ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/summary.png)
+- Ask Me
+     ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/askMe.png)
+- Challange me Ss
+     ![App Demo](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/challangeMe.png)
 
-For the above project, here’s an example of the dependencies you may need in your `requirements.txt`:
-
-```txt
-PyMuPDF==1.18.19
-openai==0.27.0
-transformers==4.18.0
-nltk==3.7
-flask==2.0.2
-```
-
----
-
-This README assumes that you're building or have built an AI-assisted tool to read, extract, and summarize information from PDFs. Adjust the tool's functionality based on your specific project.
-
-Does this align with what you had in mind for your PDF reader AI? Let me know if you need further details or adjustments!
+##🚧 Future Improvements
+-🧾 Export score report as PDF
+-❓ Optional MCQ challenge mode
+-🌙 Add dark mode UI
+-🎙️ Speech-to-text input support
