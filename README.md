@@ -13,7 +13,7 @@ Built using `Streamlit`, `LangChain`, `Sentence Transformers`, `Flan-T5`, `Sumy`
 
 ## 📸 Demo
 
-![image](https://user-images.githubusercontent.com/yourimage.png)
+![image](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png)
 
 
 ---
@@ -44,23 +44,25 @@ cd Smart-Research-Assistant
 ### 3. 🚀 Run the App
 streamlit run app.py
 
-🖼️ App Flow – Screenshots
+## 🖼️ App Flow – Screenshots
 📤 1. Upload PDF
-D:\trynew\images\image.png
+![image](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/image.png)
 
 📝 2. Auto Summary
 Generates a clean summary between 120–150 words.
-D:\trynew\images\summary.png
+![image](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/summary.png)
+
 
 💬 3. Ask Me
 Ask any question from the document and get an intelligent answer.
-D:\trynew\images\askMe.png
+![image](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/askMe.png)
+
 
 
 🧠 4. Challenge Me
 Get 3 open-ended questions → answer them → get your score with feedback.
-D:\trynew\images\challangeMe.png
-
+![image](https://github.com/Shahid09092005/EZ_GenAI_Task/blob/main/assets/challangeMe.png)
+--- 
 🚧 Future Improvements
  Export score report as PDF
 
