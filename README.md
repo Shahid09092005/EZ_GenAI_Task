@@ -1,8 +1,10 @@
 # 📄 Smart Research Assistant
+
 An AI-powered research assistant for summarizing documents, answering questions, and evaluating comprehension through interactive quizzes.
 Built using Streamlit, HuggingFace Transformers, and FAISS for modern research workflows.
 A fully offline, AI-powered assistant that helps you **understand, question, and test your comprehension** of any research document in PDF format.
 Perfect for researchers, students, educators, and developers who want a fast and local GenAI tool to explore documents intelligently.
+
 ---
 
 # 📸 Demo
@@ -18,6 +20,12 @@ Perfect for researchers, students, educators, and developers who want a fast and
 | 🧠 **SentenceTransformers MiniLM** | Semantic similarity embedding      |
 | 🔍 **FAISS**                     | Document vector storage/retrieval   |
 | 📄 **NLTK**                      | Text tokenization and preprocessing |
+
+## 📽️ Demo Video
+
+[![Watch the Demo](https://drive.google.com/file/d/1z8mcVBipUww47lbwyNNtLyoJqrw6adgi/view?usp=sharing )
+
+➡️ Click the image above to view the demo video on Google Drive.
 
 
 ## Table of Contents
