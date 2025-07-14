@@ -23,9 +23,10 @@ Perfect for researchers, students, educators, and developers who want a fast and
 
 ## 📽️ Demo Video
 
-[![Watch the Demo](https://drive.google.com/file/d/1z8mcVBipUww47lbwyNNtLyoJqrw6adgi/view?usp=sharing )
+[![Watch the Demo](https://i.imgur.com/yourImageID.png)](https://drive.google.com/file/d/1z8mcVBipUww47lbwyNNtLyoJqrw6adgi/view?usp=sharing)
 
 ➡️ Click the image above to view the demo video on Google Drive.
+
 
 
 ## Table of Contents
